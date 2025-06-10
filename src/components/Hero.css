@@ -1,0 +1,131 @@
+
+.hero-section {
+  
+  height: 400px;
+  width: 100%;
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.hero-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.hero-text {
+  flex: 1;
+  min-width: 280px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 20px;
+} 
+
+.name-highlight {
+  color: #00e0ff;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #ccc;
+}
+
+.highlight {
+  color: #00e0ff;
+  font-weight: bold;
+}
+
+.hero-image {
+  flex: 1;
+  min-width: 260px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0); }
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/* 
+
+.hero-section {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+ 
+}
+
+.hero-content {
+  max-width: 800px;
+  color: black;
+  text-align: left;
+}
+
+.hero-content p {
+  color: #ff4c60;
+  font-size: 1.2rem;
+    color: black;
+    font-weight: bold
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin: 0.5rem 0;
+    color: black;
+}
+
+.hero-content h2 {
+  font-size: 2.5rem;
+  color: #8892b0;
+    color: black;
+}
+
+.hero-content button {
+  margin-top: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  background: black;
+  border: 2px solid black;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: #fff;
+  color: #0a192f;
+} */
