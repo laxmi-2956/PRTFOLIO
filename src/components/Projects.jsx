@@ -9,19 +9,19 @@ import 'animate.css';
 
 const projects = [
   {
-    title: "Vitacost Clone",
-    description: "Fullstack clone of Vitacost website with product listings, cart, checkout, and admin dashboard.",
-    link: "https://your-vitacost-clone.vercel.app"
+    title: "CoffeeClone - JavaScript E-commerce App",
+    description: "A fully functional coffee shop website clone built using HTML, CSS, and vanilla JavaScript. Features include dynamic product listings, interactive cart management, and a clean responsive UI. Designed to simulate a real-world shopping experience without frameworks.",
+    link: "https://vitecoast.vercel.app/"
   },
   {
-    title: "Nike India UI Clone",
-    description: "Frontend clone of Nike India using React and CSS with responsive design and animations.",
-    link: "https://nike-clone-laxmi.vercel.app"
+    title: "ViteCost-Fullstack website",
+    description: "A full-fledged e-commerce web application inspired by Vitacost, built using React.js for the frontend and Node.js with Express and MongoDB for the backend. Features include user authentication, product listings, cart functionality, checkout flow, and admin product management. Fully responsive design with custom CSS and smooth animations.",
+    link: "https://new-vitecost-8.netlify.app/"
   },
   {
     title: "Blog App",
     description: "MERN Stack blog app with CRUD, JWT auth, and user role management.",
-    link: "https://your-blog-app.vercel.app"
+    link: "https://github.com/laxmi-2956/MERN-PROJECT"
   }
 ];
 
